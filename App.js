@@ -32,7 +32,7 @@ export default class App extends Component {
           'https://www.kametoys.cl/wp-content/uploads/2020/04/LOTR-Sauron-Prime1.jpg',
         thumbnail:
           'https://www.kametoys.cl/wp-content/uploads/2020/04/LOTR-Sauron-Prime1.jpg',
-        likes: 200,
+        likes: 2100,
         color: 'red',
       },
       {
@@ -41,7 +41,7 @@ export default class App extends Component {
         description: 'Psycho Mastermind',
         avatar: 'https://avatarfiles.alphacoders.com/212/212168.jpg4',
         thumbnail: 'https://avatarfiles.alphacoders.com/212/212168.jpg',
-        likes: 250,
+        likes: 500,
         color: '#361563',
       },
       {
@@ -62,8 +62,48 @@ export default class App extends Component {
           'https://pbs.twimg.com/profile_images/591372923417460736/dkmOAeyA.jpg',
         thumbnail:
           'https://pbs.twimg.com/profile_images/591372923417460736/dkmOAeyA.jpg',
-        likes: 350,
+        likes: 400,
         color: '#ffd500',
+      },
+
+      {
+        id: 5,
+        name: 'Mandara Uchiha',
+        description: 'Uchiha chief',
+        avatar: 'https://avatarfiles.alphacoders.com/187/187599.png',
+        thumbnail: 'https://avatarfiles.alphacoders.com/187/187599.png',
+        likes: 270,
+        color: 'blue',
+      },
+
+      {
+        id: 6,
+        name: 'Majin Boo',
+        description: 'Babidi creation',
+        avatar: 'https://avatarfiles.alphacoders.com/905/90501.jpg',
+        thumbnail: 'https://avatarfiles.alphacoders.com/905/90501.jpg',
+        likes: 150,
+        color: 'pink',
+      },
+
+      {
+        id: 7,
+        name: 'Darth Vader',
+        description: 'Sith Lord',
+        avatar: 'https://avatarfiles.alphacoders.com/468/46847.jpg',
+        thumbnail: 'https://avatarfiles.alphacoders.com/468/46847.jpg',
+        likes: 1000,
+        color: 'black',
+      },
+
+      {
+        id: 8,
+        name: 'Michael Corleone',
+        description: 'Godfather',
+        avatar: 'https://avatarfiles.alphacoders.com/234/234464.jpg',
+        thumbnail: 'https://avatarfiles.alphacoders.com/234/234464.jpg',
+        likes: 1050,
+        color: '#535756',
       },
     ],
   };

@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
 
   thumbnail: {
     width: '100%',
-    height: 150,
+    height: 200,
   },
 
   infoContainer: {

@@ -1,16 +1,13 @@
-import React, {Component, useEffect, useRef} from 'react';
+import React, {Component} from 'react';
 
 import {
   View,
-  Image,
-  Text,
   Platform,
   StatusBar,
   StyleSheet,
   Dimensions,
   ScrollView,
   Animated,
-  TouchableOpacity,
 } from 'react-native';
 
 import User from './components/User';
@@ -18,27 +15,6 @@ import User from './components/User';
 const {width} = Dimensions.get('window');
 
 console.disableYellowBox = true;
-
-const FadeInView = (props) => {
-  const fadeAnim = useRef(new Animated.Value(0)).current;
-
-  React.useEffect(() => {
-    Animated.timing(fadeAnim, {
-      toValue: 1,
-      duration: 10000,
-    }).start();
-  }, []);
-
-  return (
-    <Animated.View
-      style={{
-        ...props.style,
-        opacity: fadeAnim,
-      }}>
-      {props.children}
-    </Animated.View>
-  );
-};
 
 export default class App extends Component {
   state = {

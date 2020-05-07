@@ -28,10 +28,8 @@ export default class App extends Component {
         id: 1,
         name: 'Sauron',
         description: 'Ring Master',
-        avatar:
-          'https://www.kametoys.cl/wp-content/uploads/2020/04/LOTR-Sauron-Prime1.jpg',
-        thumbnail:
-          'https://www.kametoys.cl/wp-content/uploads/2020/04/LOTR-Sauron-Prime1.jpg',
+        avatar: 'https://avatarfiles.alphacoders.com/152/152003.jpg',
+        thumbnail: 'https://avatarfiles.alphacoders.com/152/152003.jpg',
         likes: 2100,
         color: 'red',
       },
@@ -39,8 +37,8 @@ export default class App extends Component {
         id: 2,
         name: 'Joker',
         description: 'Psycho Mastermind',
-        avatar: 'https://avatarfiles.alphacoders.com/212/212168.jpg4',
-        thumbnail: 'https://avatarfiles.alphacoders.com/212/212168.jpg',
+        avatar: 'https://avatarfiles.alphacoders.com/621/62145.png',
+        thumbnail: 'https://avatarfiles.alphacoders.com/621/62145.png',
         likes: 500,
         color: '#361563',
       },
@@ -48,26 +46,14 @@ export default class App extends Component {
         id: 3,
         name: 'Thanos',
         description: 'StoneSeeker',
-        avatar: 'https://avatarfiles.alphacoders.com/208/208122.png',
-        thumbnail: 'https://avatarfiles.alphacoders.com/208/208122.png',
+        avatar: 'https://avatarfiles.alphacoders.com/193/193221.jpg',
+        thumbnail: 'https://avatarfiles.alphacoders.com/193/193221.jpg',
         likes: 350,
         color: '#f04c1f',
       },
 
       {
         id: 4,
-        name: 'Handsome Jack',
-        description: 'Hyperion CEO',
-        avatar:
-          'https://pbs.twimg.com/profile_images/591372923417460736/dkmOAeyA.jpg',
-        thumbnail:
-          'https://pbs.twimg.com/profile_images/591372923417460736/dkmOAeyA.jpg',
-        likes: 400,
-        color: '#ffd500',
-      },
-
-      {
-        id: 5,
         name: 'Mandara Uchiha',
         description: 'Uchiha chief',
         avatar: 'https://avatarfiles.alphacoders.com/187/187599.png',
@@ -77,7 +63,7 @@ export default class App extends Component {
       },
 
       {
-        id: 6,
+        id: 5,
         name: 'Majin Boo',
         description: 'Babidi creation',
         avatar: 'https://avatarfiles.alphacoders.com/905/90501.jpg',
@@ -87,7 +73,7 @@ export default class App extends Component {
       },
 
       {
-        id: 7,
+        id: 6,
         name: 'Darth Vader',
         description: 'Sith Lord',
         avatar: 'https://avatarfiles.alphacoders.com/468/46847.jpg',
@@ -97,7 +83,7 @@ export default class App extends Component {
       },
 
       {
-        id: 8,
+        id: 7,
         name: 'Michael Corleone',
         description: 'Godfather',
         avatar: 'https://avatarfiles.alphacoders.com/234/234464.jpg',

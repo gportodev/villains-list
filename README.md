@@ -3,6 +3,17 @@ App with villains from history...
 
 # Screenshot
 
-![](pictures/villain-list.png)  
+![](pictures/screenshot.png)  
 
-![](pictures/villain-list2.png)
+***
+
+![](pictures/screenshot_1.png)
+
+***
+
+![](pictures/screenshot_2.png)
+
+***
+
+![](pictures/screenshot_3.png)
+

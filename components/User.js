@@ -14,7 +14,7 @@ import {
 
 const {width} = Dimensions.get('window');
 
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
 export default class User extends Component {
   state = {
@@ -94,7 +94,7 @@ export default class User extends Component {
                 <Text style={styles.description}>{user.description}</Text>
               </View>
               <View style={styles.likesContainer}>
-                <Icon name="heart" size={12} color="#FFF" />
+                <Icon name="favorite" size={24} color="#FFF" />
                 <Text style={styles.likes}>{user.likes}</Text>
               </View>
             </View>
